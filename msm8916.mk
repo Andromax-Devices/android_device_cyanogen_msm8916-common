@@ -50,6 +50,13 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml
 
+# Binder
+PRODUCT_PACKAGES += \
+    libhwbinder \
+    libhwbinder.vendor \
+    libhidltransport \
+    libhidltransport.vendor
+
 # Bluetooth
 PRODUCT_PACKAGES += \
     libbt-vendor
