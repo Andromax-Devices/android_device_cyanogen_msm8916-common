@@ -55,7 +55,9 @@ PRODUCT_PACKAGES += \
     libhwbinder \
     libhwbinder.vendor \
     libhidltransport \
-    libhidltransport.vendor
+    libhidltransport.vendor \
+    libjson \
+    libjson.vendor
 
 # Bluetooth
 PRODUCT_PACKAGES += \
