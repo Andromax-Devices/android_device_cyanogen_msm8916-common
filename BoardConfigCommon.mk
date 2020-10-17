@@ -103,6 +103,9 @@ BOARD_RAMDISK_OFFSET := 0x02000000
 
 TARGET_KERNEL_SOURCE := kernel/cyanogen/msm89xx
 
+# Legacy memfd
+TARGET_HAS_MEMFD_BACKPORT := true
+
 # Manifest
 DEVICE_MANIFEST_FILE := $(PLATFORM_PATH)/manifest.xml
 
