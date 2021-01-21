@@ -57,7 +57,8 @@ PRODUCT_PACKAGES += \
     libhidltransport \
     libhidltransport.vendor \
     libjson \
-    libjson.vendor
+    libjson.vendor \
+    vndservicemanager
 
 # Bluetooth
 PRODUCT_PACKAGES += \
