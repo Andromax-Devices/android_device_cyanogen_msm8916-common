@@ -137,3 +137,6 @@ def AddTrustZoneAssertion(info):
       cmd = 'assert(cm.verify_trustzone(' + ','.join(['"%s"' % tz for tz in versions]) + ') == "1");'
       info.script.AppendExtra(cmd)
   return
+
+def FullOTA_PostValidate(info):
+    info.script.AppendExtra('run_program("/tmp/install/bin/resize2fs_static", "-f", "/dev/block/bootdevice/by-name/system");');
