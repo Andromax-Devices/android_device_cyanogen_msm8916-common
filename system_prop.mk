@@ -31,7 +31,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.disable_backpressure=1 \
     debug.sf.latch_unsignaled=1 \
     persist.hwc.mdpcomp.enable=true \
-    persist.hwc.ptor.enable=true
+    persist.hwc.ptor.enable=true \
+    persist.hwc.pubypass=true
 
 # LMKD
 PRODUCT_PROPERTY_OVERRIDES += \
